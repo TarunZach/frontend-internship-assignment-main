@@ -1,0 +1,7 @@
+<div *ngIf="allBooks.length > 0">
+  <button type="button" class="rounded-full back-btn" (click)="goBack()">Back</button>
+  <front-end-internship-assignment-table-view
+  [booksList]="allBooks"
+  [subjectName]="subjectName"
+  ></front-end-internship-assignment-table-view>
+</div>
